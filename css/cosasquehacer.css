@@ -1,0 +1,294 @@
+* {
+	margin:0%;
+	padding:0%;
+}
+html {
+	font-size:62,5%;
+}
+#cosasquehacer-header {
+	background-color:white;
+	padding:1.5rem;
+	border-top:solid 35px green;
+	border-bottom:solid 35px black;
+	border-left:solid 35px red;
+}
+.cosasquehacer-navegacion li {
+	display:inline;
+	margin-right:1.5rem;
+}
+.cosasquehacer-navegacion li a {
+	text-decoration:none;
+	font-size:1.5rem;
+	font-family:impact,sans-serif;
+	color:black;
+}
+.cosasquehacer-fondo {
+	background-color: beige;
+}
+.cosasquehacer-h1 {
+	padding-left:80px;
+	padding-top:50px;
+	padding-bottom:5px;
+	font-size:3rem;
+	font-family:serif;
+	text-shadow:5px 5px 5px white;
+}
+.cosasquehacer-flex {
+	display: flex;
+	flex-direction: column;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.cosasquehacer-section {
+	border: solid black 1px;
+	width: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	margin-top:50px;
+	margin-bottom:30px;
+	margin-left:40px;
+	padding: 40px 40px;
+}
+.cosasquehacer-section .recorridodesierto {
+	background-image: url(../img/dunas-1.jpg);
+	background-size: cover;
+	height: 400px;
+	width: 500px;
+	margin-left: 25px;
+	margin-top: 10px;
+	animation: dunas 20s infinite;
+}
+@keyframes dunas {
+	20% {
+		background-image: url(../img/dunas-2.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	40% {
+		background-image: url(../img/dunas-3.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	60% {
+		background-image: url(../img/dunas-4.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	80% {
+		background-image: url(../img/dunas-5.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}
+.cosasquehacer-section .touryate {
+	background-image: url(../img/yate-1.jpg);
+	background-size: cover;
+	height: 400px;
+	width: 500px;
+	margin-left: 25px;
+	margin-top: 10px;
+	animation: touryate 20s infinite;
+}
+@keyframes touryate {
+	20% {
+		background-image: url(../img/yate-2.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	40% {
+		background-image: url(../img/yate-3.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	60% {
+		background-image: url(../img/yate-4.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	80% {
+		background-image: url(../img/yate-5.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}
+.cosasquehacer-section .burjkhalifa {
+	background-image: url(../img/Burj\ Khalifa-1.jpg);
+	background-size: cover;
+	height: 400px;
+	width: 500px;
+	margin-left: 25px;
+	margin-top: 10px;
+	animation: burjkhalifa 20s infinite;
+}
+@keyframes burjkhalifa {
+	20% {
+		background-image: url(../img/Burj\ Khalifa-2.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	40% {
+		background-image: url(../img/Burj\ Khalifa-3.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	60% {
+		background-image: url(../img/Burj\ Khalifa-4.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	80% {
+		background-image: url(../img/Burj\ Khalifa-5.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}
+.cosasquehacer-section .helicoptero {
+	background-image: url(../img/helicoptero-1.jpg);
+	background-size: cover;
+	height: 400px;
+	width: 500px;
+	margin-left: 25px;
+	margin-top: 10px;
+	animation: helicoptero 20s infinite;
+}
+@keyframes helicoptero {
+	20% {
+		background-image: url(../img/helicoptero-2.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	40% {
+		background-image: url(../img/helicoptero-3.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	60% {
+		background-image: url(../img/helicoptero-4.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	80% {
+		background-image: url(../img/helicoptero-5.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}
+.cosasquehacer-section .globo {
+	background-image: url(../img/globo-1.jpg);
+	background-size: cover;
+	height: 400px;
+	width: 500px;
+	margin-left: 25px;
+	margin-top: 10px;
+	animation: globo 20s infinite;
+}
+@keyframes globo {
+	20% {
+		background-image: url(../img/globo-2.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	40% {
+		background-image: url(../img/globo-3.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	60% {
+		background-image: url(../img/globo-4.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	80% {
+		background-image: url(../img/globo-5.jpg);
+		background-size: cover;
+		height: 400px;
+		width: 500px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}
+.cosasquehacer-section div {
+	padding-left: 30px;
+	width: 400px;
+	text-align: left;
+}
+.cosasquehacer-section div h2 {
+	font-size: 1.5rem;
+	font-family: serif;
+	font-weight: bolder;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.cosasquehacer-section p {
+	font-size: 1.2rem;
+	font-family: serif;
+	font-weight: bolder;
+	width: 330px;
+}
+.cosasquehacer-footer {
+	background-color:black;
+}
+.cosasquehacer-footer p {
+	color:aliceblue;
+	font-size: 1rem;
+	font-family: serif;
+	text-align-last: center;
+}

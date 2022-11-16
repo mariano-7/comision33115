@@ -1,0 +1,467 @@
+* {
+	margin:0%;
+	padding:0%;
+}
+html {
+	font-size:62,5%;
+}
+.hoteleria-header {
+	background-color:white;
+	padding: 1.5rem;
+	border-top:solid 35px green;
+	border-bottom:solid 35px black;
+	border-left:solid 35px red;
+}
+.hoteleria-menu li {
+	display:inline;
+	margin-right:1.5rem;
+}
+.hoteleria-menu li a {
+	text-decoration:none;
+	font-size:1.5rem;
+	font-family:impact,sans-serif;
+	color:black;
+}
+.hoteleria-fondo .border {
+	background-color: beige;
+}
+header {   
+grid-area: header;
+} 
+footer {   
+grid-area: footer; 
+} 
+section#productos {   
+grid-area: productos;     
+} 
+section#servicios {   
+grid-area: servicios;     
+} 
+nav {   
+grid-area: nav; 
+}
+.border {  
+	border: 1px solid black;
+}
+.border h1 {
+	text-align: center;
+	padding-top: 30px;
+}
+.border .hoteleria-nav {
+	font-family:serif;
+	font-size: 1rem;
+	text-align: center;
+}
+.hoteleria-h2 {
+	padding-top: 12px;
+	font-family:serif;
+	font-size: 1rem;
+	margin-top: 10px;
+}
+.hoteleria-h2 p {
+	font-family:serif;
+	font-size: 1rem;
+	margin-top: 10px;
+}
+.hoteleria-h2 p {
+	font-family:serif;
+	font-size: 1rem;
+	margin-top: 10px;
+}	
+#grilla {   
+	display: grid;   
+	grid-template-areas:     
+	"nav header header"		                         
+	"nav productos publicidad"    			                     
+	"nav servicios publicidad"     								 
+	"footer footer footer";   
+	grid-template-rows: 100px 1fr 1fr 1rem;    
+    grid-template-columns: 20% auto 0%; 
+	height: 100vh;  
+	margin: 0
+} 
+.footer {
+	background-color:black;
+}
+.footer p {
+	color:aliceblue;
+	font-size:1rem;
+	font-family:serif;
+	text-align-last: center;
+}
+.seccion-flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+.caja-imagenes {
+	border: solid black 1px;
+	width: 250px;
+	height: 240px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.caja-imagenes .gevora {
+	background-image: url(../img/Gevora-1.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 10px;
+	animation: gevora 20s infinite;
+}
+@keyframes gevora {
+	20% {
+		background-image: url(../img/Gevora-2.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	40% {
+		background-image: url(../img/Gevora-3.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	60% {
+		background-image: url(../img/Gevora-4.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	80% {
+		background-image: url(../img/Gevora-5.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}
+.caja-imagenes .hotel-ramada-jumeirah {
+	background-image: url(../img/Hotel\ Ramada\ Jumeirah-1.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 10px;
+	animation: jumeirah 20s infinite;
+}
+@keyframes jumeirah {
+	20% {
+		background-image: url(../img/Hotel\ Ramada\ Jumeirah-2.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	40% {
+		background-image: url(../img/Hotel\ Ramada\ Jumeirah-3.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	60% {
+		background-image: url(../img/Hotel\ Ramada\ Jumeirah-4.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	80% {
+		background-image: url(../img/Hotel\ Ramada\ Jumeirah-5.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}
+.caja-imagenes .ibis-styles-dubai-airport-hotel {
+	background-image: url(../img/Ibis\ Styles\ Dubai\ Airport\ Hotel-1.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 10px;
+	animation: ibis 20s infinite;
+}
+@keyframes ibis {
+	20% {
+		background-image: url(../img/Ibis\ Styles\ Dubai\ Airport\ Hotel-2.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	40% {
+		background-image: url(../img/Ibis\ Styles\ Dubai\ Airport\ Hotel-4.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	60% {
+		background-image: url(../img/Ibis\ Styles\ Dubai\ Airport\ Hotel-5.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	80% {
+		background-image: url(../img/Ibis\ Styles\ Dubai\ Airport\ Hotel-6.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}
+.caja-imagenes .jumeirah-dar-al-masyaf {
+	background-image: url(../img/Jumeirah\ Dar\ Al\ Masyaf-1.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 10px;
+	animation: jumeirah-dar-al-masyaf  20s infinite;
+}
+@keyframes jumeirah-dar-al-masyaf {
+	20% {
+		background-image: url(../img/Jumeirah\ Dar\ Al\ Masyaf-2.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	40% {
+		background-image: url(../img/Jumeirah\ Dar\ Al\ Masyaf-3.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	60% {
+		background-image: url(../img/Jumeirah\ Dar\ Al\ Masyaf-4.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	80% {
+		background-image: url(../img/Jumeirah\ Dar\ Al\ Masyaf-5.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}
+.caja-imagenes .jumeirah-emirates-towers {
+	background-image: url(../img/Jumeirah\ Emirates\ Towers-1.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 10px;
+	animation: jumeirah-emirates-towers 20s infinite;
+}
+@keyframes jumeirah-emirates-towers {
+	20% {
+		background-image: url(../img/Jumeirah\ Emirates\ Towers-2.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	40% {
+		background-image: url(../img/Jumeirah\ Emirates\ Towers-3.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	60% {
+		background-image: url(../img/Jumeirah\ Emirates\ Towers-4.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	80% {
+		background-image: url(../img/Jumeirah\ Emirates\ Towers-5.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}
+.caja-imagenes .palazzo-versace-dubai {
+	background-image: url(../img/Palazzo\ Versace\ Dubai-1.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 10px;
+	animation: palazzo-versace-dubai 20s infinite;
+}
+@keyframes palazzo-versace-dubai {
+	20% {
+		background-image: url(../img/Palazzo\ Versace\ Dubai-2.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	40% {
+		background-image: url(../img/Palazzo\ Versace\ Dubai-3.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	60% {
+		background-image: url(../img/Palazzo\ Versace\ Dubai-4.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	80% {
+		background-image: url(../img/Palazzo\ Versace\ Dubai-5.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}
+.caja-imagenes .roda-al-murooj {
+	background-image: url(../img/Roda\ Al\ Murooj-1.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 10px;
+	animation: roda-al-murooj 20s infinite;
+}
+@keyframes roda-al-murooj {
+	20% {
+		background-image: url(../img/Roda\ Al\ Murooj-2.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	40% {
+		background-image: url(../img/Roda\ Al\ Murooj-3.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	60% {
+		background-image: url(../img/Roda\ Al\ Murooj-4.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	80% {
+		background-image: url(../img/Roda\ Al\ Murooj-5.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}
+.caja-imagenes .sofitel-dubai-downtown {
+	background-image: url(../img/Sofitel\ Dubai\ Downtown-1.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 10px;
+	animation: sofitel-dubai-downtown 25s infinite;
+}
+@keyframes sofitel-dubai-downtown {
+	20% {
+		background-image: url(../img/Sofitel\ Dubai\ Downtown-2.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	40% {
+		background-image: url(../img/Sofitel\ Dubai\ Downtown-3.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	60% {
+		background-image: url(../img/Sofitel\ Dubai\ Downtown-4.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	80% {
+		background-image: url(../img/Sofitel\ Dubai\ Downtown-3.jpg);
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}
+.caja-imagenes p {
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 5px;
+}
+.hoteleria-button {
+	margin-top: 10px;
+	width:150px;
+	height:40px;
+	border-radius: 5px;
+	font-weight:bold;
+}
+.hoteleria-button a {
+	text-decoration: none;
+	color: black;
+}

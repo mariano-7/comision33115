@@ -1,0 +1,246 @@
+* {
+	margin:0%;
+	padding:0%;
+}
+html {
+	font-size:62,5%;
+}
+.contacto {
+	background-color:white;
+	padding:1.5rem;
+	border-top:solid 35px green;
+	border-bottom:solid 35px black;
+	border-left:solid 35px red;
+}
+.contacto-menu li {
+	display:inline;
+	margin-right:1.5rem;
+}
+.contacto-menu li a {
+	text-decoration:none;
+	font-size:1.5rem;
+	font-family:impact,sans-serif;
+	color:black;
+}
+.contacto-fondo {
+	background-image: url(../img/contacto-1.jpg);
+	background-size: cover;
+	animation: imagenes 60s infinite;
+}
+@keyframes imagenes {
+	20% {
+		background-image: url(../img/contacto-2.jpg);
+		background-size: cover;
+	}
+	40% {
+		background-image: url(../img/contacto-3.jpg);
+		background-size: cover;
+	}
+	60% {
+		background-image: url(../img/contacto-4.jpg);
+		background-size: cover;
+	}
+	80% {
+		background-image: url(../img/contacto-5.jpg);
+		background-size: cover;
+	}
+	100% {
+		background-image: url(../img/contacto-6.jpg);
+		background-size: cover;
+	}
+}
+.contacto-h1 {
+	padding-left:200px;
+	padding-top:20px;
+	padding-bottom:10px;
+	font-size:3rem;
+	font-family:serif;
+	text-shadow:1px 1px 1px white;
+}
+.contacto-h2 {
+	padding-left:200px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:2.5rem;
+	font-family:serif;
+	text-shadow:2px 2px 2px white;
+}
+.formulario {
+	display:block;
+	margin-left:200px;
+	margin-top:20px;
+	margin-bottom:0px;
+	border:solid 2px black;
+	width:500px;
+	height:450px;
+	font-size:20px;
+	font-family:serif;
+	font-weight:bolder;
+	text-shadow:1px 1px 1px white;
+	padding:5px 10px 15px 15px;
+	background-color:red;
+}
+fieldset {
+	padding:20px;
+}
+.contacto-footer {
+	background-color:black;
+}
+.contacto-footer p {
+	color:aliceblue;
+	font-size:1rem;
+	font-family:serif;
+	text-align-last: center;
+}
+/* ESTILOS MOBILE TABLET */
+@media screen and (max-width: 768px) {
+	.contacto {
+		background-color:white;
+		padding:1rem;
+		border-top:solid 25px green;
+		border-bottom:solid 25px black;
+		border-left:solid 25px red;
+	}
+	.contacto-menu li a {
+		font-size:1.2rem;
+	}
+	.contacto-fondo {
+		background-image: url(../img/contacto-1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		animation: imagenes 60s infinite;
+	}
+	@keyframes imagenes {
+		20% {
+			background-image: url(../img/contacto-2.jpg);
+			background-size: cover;
+			width: 100%;
+		}
+		40% {
+			background-image: url(../img/contacto-3.jpg);
+			background-size: cover;
+			width: 100%;
+		}
+		60% {
+			background-image: url(../img/contacto-4.jpg);
+			background-size: cover;
+			width: 100%;
+		}
+		80% {
+			background-image: url(../img/contacto-5.jpg);
+			background-size: cover;
+			width: 100%;
+		}
+		100% {
+			background-image: url(../img/contacto-6.jpg);
+			background-size: cover;
+			width: 100%;
+		}
+	}
+	.contacto-h1 {
+	padding-left:100px;
+	font-size: 1.7rem;
+	}
+	.contacto-h2 {
+	padding-left:100px;
+	font-size:1.5rem;
+	}
+	.formulario {
+		display:block;
+		margin-left:100px;
+		margin-top:20px;
+		margin-bottom:0px;
+		border:solid 2px black;
+		width:450px;
+		height:400px;
+		font-size:15px;
+		font-family:serif;
+		font-weight:bolder;
+		text-shadow:1px 1px 1px white;
+		background-color:red;
+	}
+}
+/* FIN ESTILOS MOBILE TABLET */
+/* ESTILOS MOBILE TELEFONO MODO HORIZONTAL */
+@media screen and (max-width: 480px) {
+	.contacto {
+		background-color:white;
+		padding: 0.3rem;
+		border-top: solid 20px green;
+		border-bottom: solid 20px black;
+		border-left: solid 40px red;
+	}
+	.contacto-menu li a {
+		font-size: 1rem;
+		padding-top: 0%;
+	}
+	.contacto-menu li {
+		display: block;
+	}
+	.contacto-fondo {
+		background-image: url(../img/contacto-1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		animation: imagenes 100s infinite;
+	}
+	@keyframes imagenes {
+		20% {
+			background-image: url(../img/contacto-2.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+		}
+		40% {
+			background-image: url(../img/contacto-3.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+		}
+		60% {
+			background-image: url(../img/contacto-4.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+		}
+		80% {
+			background-image: url(../img/contacto-5.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+		}
+		100% {
+			background-image: url(../img/contacto-6.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+		}
+	}
+	.contacto-h1 {
+	padding-left:50px;
+	font-size: 1.7rem;
+	}
+	.contacto-h2 {
+	padding-left:50px;
+	font-size:1.5rem;
+	}
+	.formulario {
+		display:block;
+		margin-left:50px;
+		margin-top:20px;
+		margin-bottom:0px;
+		border:solid 2px black;
+		width:350px;
+		height:400px;
+		font-size:15px;
+		font-family:serif;
+		font-weight:bolder;
+		text-shadow:1px 1px 1px white;
+		background-color:red;
+	}
+	fieldset {
+		padding:15px;
+	}
+}
+/* FIN ESTILOS MOBILE TELEFONO ESTILO HORIZONTAL */

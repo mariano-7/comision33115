@@ -1,0 +1,106 @@
+* {
+	margin:0%;
+	padding:0%;
+}
+html {
+	font-size:62,5%;
+}
+.viaje-menu {
+	background-color:white;
+	padding:1.5rem;
+	border-top:solid 35px green;
+	border-bottom:solid 35px black;
+	border-left:solid 35px red;
+}
+.viaje-menu li {
+	display:inline;
+	margin-right:1.5rem;
+}
+.viaje-menu li a {
+	text-decoration:none;
+	font-size:1.5rem;
+	font-family:impact,sans-serif;
+	color:black;
+}
+.viaje-img {
+	background-image:url(../img/flyemirates.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.viaje-h1 {
+	padding-left:50px;
+	padding-top:20px;
+	padding-bottom:10px;
+	font-size:3rem;
+	font-family:serif;
+	color:red;
+	text-shadow:2px 2px 2px black;
+}
+.viaje-h2 {
+	padding-left:50px;
+	padding-top:20px;
+	padding-bottom:10px;
+	font-size:2.5rem;
+	font-family:serif;
+	color:gold;
+	text-shadow:2px 2px 2px black;
+}
+.viaje-tabla {
+	margin-left:40px;
+	margin-top:25px;
+	margin-bottom:0px;
+	width:1000px;
+	height:300px;
+	border-radius:30px;
+	border:solid black 2px;
+	background-color:red;
+}
+.viaje-th {
+	border-radius:30px;
+	border:solid black 2px;
+	background-color:rgb(37,135,226);
+}
+.viaje-th p {
+	font-family:serif;
+	font-size:25px;
+	text-shadow:1px 1px 1px white;
+}
+.viaje-th select {
+	margin-top:15px;
+}
+.viaje-td {
+	border-radius:30px;
+	border:solid black 2px;
+	background-color:rgb(37,135,226);
+}
+.viaje-td p {
+	font-family:serif;
+	font-size:25px;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:1px 1px 1px white;
+}
+.viaje-td select {
+	margin-left:80px;
+	margin-top:15px;
+}
+.viaje-button {
+	width:150px;
+	height:40px;
+	border-radius: 10px;
+	font-weight:bold;
+}
+.viaje-button a {
+	text-decoration: none;
+	color: black;
+}
+.viaje-footer {
+	background-color:black;
+}
+.viaje-footer p {
+	color:aliceblue;
+	font-size:1rem;
+	font-family:serif;
+	text-align-last: center;
+}
