@@ -7,14 +7,15 @@ html {
 }
 header {
 	background-color:white;
-	padding: 1.5rem;
+	padding: 0.3rem;
 	border-top: solid 35px green;
 	border-bottom: solid 35px black;
 	border-left: solid 35px red;
 }
 .navegacion li {
 	display: inline;
-	margin-right: 1.5rem;
+	margin-right: 3.5rem;
+	margin-top: 0.5rem;
 }
 .navegacion li a {
 	text-decoration: none;
@@ -58,17 +59,17 @@ header {
 .caja-1 h1 {
 	color: black;
 	padding-top: 50px;
+	padding-left: 130px;
 	font-family:serif;
-	font-size:2.5rem;
-	text-align: center;
-	text-shadow:3px 3px 3px white;
+	font-size: 2.8rem;
+	text-shadow: 3px 3px 3px white;
 }
 .caja-1 p {
-	width: 900px;
+	width: 80%;
 	padding-top:50px;
-	padding-left: 120px;
+	padding-left: 130px;
 	font-weight:bold;
-	font-size:2rem;
+	font-size: 1.5rem;
 	color:black;
 	text-shadow:2px 2px 2px white;
 	text-align: start;

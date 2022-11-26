@@ -7,14 +7,14 @@ html {
 }
 #cosasquehacer-header {
 	background-color:white;
-	padding:1.5rem;
+	padding: 0.3rem;
 	border-top:solid 35px green;
 	border-bottom:solid 35px black;
 	border-left:solid 35px red;
 }
 .cosasquehacer-navegacion li {
 	display:inline;
-	margin-right:1.5rem;
+	margin-right: 3.5rem;
 }
 .cosasquehacer-navegacion li a {
 	text-decoration:none;
@@ -39,9 +39,9 @@ html {
 	padding-left: 40px;
 	padding-right: 40px;
 }
-.cosasquehacer-section {
+#cosasquehacer-section {
 	border: solid black 1px;
-	width: 80%;
+	width: 95%;
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-evenly;
@@ -50,12 +50,30 @@ html {
 	margin-left:40px;
 	padding: 40px 40px;
 }
-.cosasquehacer-section .recorridodesierto {
+#cosasquehacer-section div {
+	padding-left: 30px;
+	width: 500px;
+	text-align: left;
+}
+#cosasquehacer-section div h2 {
+	font-size: 1.7rem;
+	font-family: serif;
+	font-weight: bolder;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#cosasquehacer-section p {
+	font-size: 1.2rem;
+	font-family: serif;
+	font-weight: bolder;
+	width: 450px;
+}
+#cosasquehacer-section .recorridodesierto {
 	background-image: url(../img/dunas-1.jpg);
 	background-size: cover;
 	height: 400px;
 	width: 500px;
-	margin-left: 25px;
+	margin-left: 20px;
 	margin-top: 10px;
 	animation: dunas 20s infinite;
 }
@@ -93,7 +111,7 @@ html {
 		margin-top: 10px;
 	}
 }
-.cosasquehacer-section .touryate {
+#cosasquehacer-section .touryate {
 	background-image: url(../img/yate-1.jpg);
 	background-size: cover;
 	height: 400px;
@@ -136,7 +154,7 @@ html {
 		margin-top: 10px;
 	}
 }
-.cosasquehacer-section .burjkhalifa {
+#cosasquehacer-section .burjkhalifa {
 	background-image: url(../img/Burj\ Khalifa-1.jpg);
 	background-size: cover;
 	height: 400px;
@@ -179,7 +197,7 @@ html {
 		margin-top: 10px;
 	}
 }
-.cosasquehacer-section .helicoptero {
+#cosasquehacer-section .helicoptero {
 	background-image: url(../img/helicoptero-1.jpg);
 	background-size: cover;
 	height: 400px;
@@ -222,7 +240,7 @@ html {
 		margin-top: 10px;
 	}
 }
-.cosasquehacer-section .globo {
+#cosasquehacer-section .globo {
 	background-image: url(../img/globo-1.jpg);
 	background-size: cover;
 	height: 400px;
@@ -264,24 +282,6 @@ html {
 		margin-left: 25px;
 		margin-top: 10px;
 	}
-}
-.cosasquehacer-section div {
-	padding-left: 30px;
-	width: 400px;
-	text-align: left;
-}
-.cosasquehacer-section div h2 {
-	font-size: 1.5rem;
-	font-family: serif;
-	font-weight: bolder;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-.cosasquehacer-section p {
-	font-size: 1.2rem;
-	font-family: serif;
-	font-weight: bolder;
-	width: 330px;
 }
 .cosasquehacer-footer {
 	background-color:black;
