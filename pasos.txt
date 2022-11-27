@@ -1,0 +1,5 @@
+Para agregar sass al proyecto:
+2da forma:
+1er paso: npm init
+2do paso: npm install -g sass
+3er paso: sass --watch scss:css
