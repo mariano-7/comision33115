@@ -1,0 +1,245 @@
+* {
+	margin:0%;
+	padding:0%;
+}
+html {
+	font-size:62,5%;
+}
+header {
+	background-color:white;
+	padding: 0.3rem;
+	border-top: solid 35px green;
+	border-bottom: solid 35px black;
+	border-left: solid 35px red;
+}
+.navegacion li {
+	display: inline;
+	margin-right: 3.5rem;
+	margin-top: 0.5rem;
+    a {
+        text-decoration: none;
+	    font-size: 1.5rem;
+	    font-family: impact,sans-serif;
+	    color: black;
+    }
+}
+.caja-1 {
+	background-image: url(../img/index-1.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+	animation: imagenes 50s infinite;
+}
+@keyframes imagenes {
+	20% {
+		background-image: url(../img/index-2.jpg);
+		background-size: cover;
+		width: 100%;
+		height: 700px;
+	}
+	40% {
+		background-image: url(../img/index-3.jpg);
+		background-size: cover;
+		width: 100%;
+		height: 700px;
+	}
+	60% {
+		background-image: url(../img/index-4.jpg);
+		background-size: cover;
+		width: 100%;
+		height: 700px;
+	}
+	80% {
+		background-image: url(../img/index-5.jpg);
+		background-size: cover;
+		width: 100%;
+		height: 700px;
+	}
+}
+.caja-1 h1 {
+	color: black;
+	padding-top: 50px;
+	padding-left: 130px;
+	font-family:serif;
+	font-size: 2.8rem;
+	text-shadow: 3px 3px 3px white;
+}
+.caja-1 p {
+	width: 80%;
+	padding-top:50px;
+	padding-left: 130px;
+	font-weight:bold;
+	font-size: 1.5rem;
+	color:black;
+	text-shadow:2px 2px 2px white;
+	text-align: start;
+}
+.padre-flex {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: center;
+}
+.caja-2 iframe {
+	width: 680px;
+	height: 400px;
+}
+.mapa iframe {
+	width: 680px;
+	height: 400px;
+}
+.final {
+	background-color:black;
+    p {
+        color:aliceblue;
+	font-size:1rem;
+	font-family:serif;
+	text-align-last: center;
+
+    }
+}
+/* ESTILOS MOBILE TABLET */
+@media screen and (max-width: 768px) {
+	header {
+		background-color:white;
+		padding: 1rem;
+		border-top: solid 25px green;
+		border-bottom: solid 25px black;
+		border-left: solid 25px red;
+	}
+	.navegacion li a {
+		font-size: 1.2rem;
+	}
+	.caja-1 {
+		background-image: url(../img/index-1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 500px;
+		animation: imagenes 50s infinite;
+	}
+	@keyframes imagenes {
+		20% {
+			background-image: url(../img/index-2.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+			height: 500px;
+		}
+		40% {
+			background-image: url(../img/index-3.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+			height: 500px;
+		}
+		60% {
+			background-image: url(../img/index-4.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+			height: 500px;
+		}
+		80% {
+			background-image: url(../img/index-5.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+			height: 500px;
+		}
+	}
+	.caja-1 h1 {
+		font-size: 1.5rem;
+		padding-left: 30px;
+		text-align: left;
+	}
+	.caja-1 p {
+		font-size: 1.5rem;
+		width: 700px;
+		padding-left: 30px;
+	}
+	.padre-flex {
+		display: flex;
+	    flex-direction: column;
+	}
+	.caja-2 iframe {
+		width: 100%;
+		height: 400px;
+	}
+	.mapa iframe {
+		width: 100%;
+		height: 400px;
+	}
+}
+/* FIN ESTILOS MOBILE TABLET */
+/* ESTILOS MOBILE TELEFONO MODO HORIZONTAL */
+@media screen and (max-width: 480px) {
+	header {
+		background-color:white;
+		padding: 0.3rem;
+		border-top: solid 20px green;
+		border-bottom: solid 20px black;
+		border-left: solid 40px red;
+	}
+	.navegacion li a {
+		font-size: 1rem;
+		padding-top: 0%;
+	}
+	.navegacion li {
+		display: block;
+	}
+	.caja-1 {
+		background-image: url(../img/index-1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		animation: imagenes 50s infinite;
+	}
+	@keyframes imagenes {
+		20% {
+			background-image: url(../img/index-2.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+		}
+		40% {
+			background-image: url(../img/index-3.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+		}
+		60% {
+			background-image: url(../img/index-4.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+		}
+		80% {
+			background-image: url(../img/index-5.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+		}
+	}
+	.caja-1 h1 {
+		font-size: 1.5rem;
+		padding-left: 15px;
+		text-align: left;
+	}
+	.caja-1 p {
+		font-size: 1rem;
+		width: 400px;
+		padding-left: 15px;
+	}
+	.padre-flex {
+		display: flex;
+	    flex-direction: column;
+	}
+	.caja-2 iframe {
+		padding-top: 0%;
+		width: 100%;
+	}
+	.mapa iframe {
+		width: 100%;
+	}
+}

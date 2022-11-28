@@ -11,16 +11,16 @@ html {
 	border-top:solid 35px green;
 	border-bottom:solid 35px black;
 	border-left:solid 35px red;
-}
-.contacto-menu li {
-	display:inline;
-	margin-right: 3.5rem;
-}
-.contacto-menu li a {
-	text-decoration:none;
-	font-size:1.5rem;
-	font-family:impact,sans-serif;
-	color:black;
+	menu li {
+		display:inline;
+		margin-right: 3.5rem;
+	}
+	a {
+		text-decoration:none;
+		font-size:1.5rem;
+		font-family:impact,sans-serif;
+		color:black;
+	}
 }
 .contacto-fondo {
 	background-image: url(../img/contacto-1.jpg);
@@ -87,12 +87,12 @@ fieldset {
 }
 .contacto-footer {
 	background-color:black;
-}
-.contacto-footer p {
-	color:aliceblue;
-	font-size:1rem;
-	font-family:serif;
-	text-align-last: center;
+	p {
+		color:aliceblue;
+		font-size:1rem;
+		font-family:serif;
+		text-align-last: center;
+	}
 }
 /* ESTILOS MOBILE TABLET */
 @media screen and (max-width: 768px) {
@@ -102,9 +102,10 @@ fieldset {
 		border-top:solid 25px green;
 		border-bottom:solid 25px black;
 		border-left:solid 25px red;
-	}
-	.contacto-menu li a {
-		font-size:1.2rem;
+
+		menu li a {
+			font-size:1.2rem;
+		}
 	}
 	.contacto-fondo {
 		background-image: url(../img/contacto-1.jpg);
@@ -172,13 +173,13 @@ fieldset {
 		border-top: solid 20px green;
 		border-bottom: solid 20px black;
 		border-left: solid 40px red;
-	}
-	.contacto-menu li a {
-		font-size: 1rem;
-		padding-top: 0%;
-	}
-	.contacto-menu li {
-		display: block;
+		menu li a {
+			font-size: 1rem;
+			padding-top: 0%;
+		}
+		menu li {
+			display: block;
+		}
 	}
 	.contacto-fondo {
 		background-image: url(../img/contacto-1.jpg);

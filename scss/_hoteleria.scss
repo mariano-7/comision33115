@@ -15,12 +15,12 @@ html {
 .hoteleria-menu li {
 	display:inline;
 	margin-right: 3.5rem;
-}
-.hoteleria-menu li a {
-	text-decoration:none;
-	font-size:1.5rem;
-	font-family:impact,sans-serif;
-	color:black;
+	a {
+		text-decoration:none;
+		font-size:1.5rem;
+		font-family:impact,sans-serif;
+		color:black;
+	}
 }
 .hoteleria-fondo .border {
 	background-color: beige;
@@ -55,16 +55,16 @@ grid-area: nav;
 .hoteleria-h2 {
 	font-family: serif;
 	margin-top: 10px;
+	h2 {
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+	p {
+		font-family:serif;
+		font-size: 0.9rem;
+		margin-top: 10px;
+	}
 }
-.hoteleria-h2 h2 {
-	font-size: 1.2rem;
-	font-weight: bold;
-}
-.hoteleria-h2 p {
-	font-family:serif;
-	font-size: 0.9rem;
-	margin-top: 10px;
-}	
 #grilla {   
 	display: grid;   
 	grid-template-areas:     
@@ -92,6 +92,12 @@ grid-area: nav;
 	height: 240px;
 	margin-top: 15px;
 	margin-bottom: 10px;
+	p {
+		font-size: 1rem;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 5px;
+	}
 }
 #carouselExampleIndicators img {
 	height: 200px;
@@ -100,29 +106,23 @@ grid-area: nav;
 	margin-right: 0px;
 	margin-top: 0px;
 }
-.caja-imagenes p {
-	font-size: 1rem;
-	font-weight: bold;
-	text-align: center;
-	margin-top: 5px;
-}
 .hoteleria-button {
 	width:150px;
 	height:40px;
 	border-radius: 5px;
 	font-weight:bold;
 	margin-bottom: 10px;
-}
-.hoteleria-button a {
-	text-decoration: none;
-	color: black;
+	a {
+		text-decoration: none;
+		color: black;
+	}
 }
 .footer {
 	background-color:black;
-}
-.footer p {
-	color:aliceblue;
-	font-size:1rem;
-	font-family:serif;
-	text-align-last: center;
+	p {
+		color:aliceblue;
+		font-size:1rem;
+		font-family:serif;
+		text-align-last: center;
+	}
 }
