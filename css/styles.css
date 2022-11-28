@@ -7,6 +7,835 @@ html {
   font-size: 62, 5%;
 }
 
+.contacto {
+  background-color: white;
+  padding: 0.3rem;
+  border-top: solid 35px green;
+  border-bottom: solid 35px black;
+  border-left: solid 35px red;
+}
+.contacto menu li {
+  display: inline;
+  margin-right: 3.5rem;
+}
+.contacto a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: impact, sans-serif;
+  color: black;
+}
+
+.contacto-fondo {
+  background-image: url(../img/contacto-1.jpg);
+  background-size: cover;
+  animation: imagenes 60s infinite;
+}
+
+@keyframes imagenes {
+  20% {
+    background-image: url(../img/contacto-2.jpg);
+    background-size: cover;
+  }
+  40% {
+    background-image: url(../img/contacto-3.jpg);
+    background-size: cover;
+  }
+  60% {
+    background-image: url(../img/contacto-4.jpg);
+    background-size: cover;
+  }
+  80% {
+    background-image: url(../img/contacto-5.jpg);
+    background-size: cover;
+  }
+  100% {
+    background-image: url(../img/contacto-6.jpg);
+    background-size: cover;
+  }
+}
+.contacto-h1 {
+  padding-left: 200px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 3rem;
+  font-family: serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
+}
+
+.contacto-h2 {
+  padding-left: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 2.7rem;
+  font-family: serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
+}
+
+.formulario {
+  display: block;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border: solid 2px black;
+  width: 500px;
+  height: 80%;
+  font-size: 20px;
+  font-family: serif;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px white;
+  padding: 5px 10px 15px 15px;
+  background-color: red;
+}
+
+fieldset {
+  padding: 20px;
+}
+
+.contacto-footer {
+  background-color: black;
+}
+.contacto-footer p {
+  color: aliceblue;
+  font-size: 1rem;
+  font-family: serif;
+  text-align-last: center;
+}
+
+/* ESTILOS MOBILE TABLET */
+@media screen and (max-width: 768px) {
+  .contacto {
+    background-color: white;
+    padding: 1rem;
+    border-top: solid 25px green;
+    border-bottom: solid 25px black;
+    border-left: solid 25px red;
+  }
+  .contacto menu li a {
+    font-size: 1.2rem;
+  }
+  .contacto-fondo {
+    background-image: url(../img/contacto-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    animation: imagenes 60s infinite;
+  }
+  @keyframes imagenes {
+    20% {
+      background-image: url(../img/contacto-2.jpg);
+      background-size: cover;
+      width: 100%;
+    }
+    40% {
+      background-image: url(../img/contacto-3.jpg);
+      background-size: cover;
+      width: 100%;
+    }
+    60% {
+      background-image: url(../img/contacto-4.jpg);
+      background-size: cover;
+      width: 100%;
+    }
+    80% {
+      background-image: url(../img/contacto-5.jpg);
+      background-size: cover;
+      width: 100%;
+    }
+    100% {
+      background-image: url(../img/contacto-6.jpg);
+      background-size: cover;
+      width: 100%;
+    }
+  }
+  .contacto-h1 {
+    padding-left: 100px;
+    font-size: 1.7rem;
+  }
+  .contacto-h2 {
+    padding-left: 100px;
+    font-size: 1.5rem;
+  }
+  .formulario {
+    display: block;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border: solid 2px black;
+    width: 450px;
+    height: 400px;
+    font-size: 15px;
+    font-family: serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px white;
+    background-color: red;
+  }
+}
+/* FIN ESTILOS MOBILE TABLET */
+/* ESTILOS MOBILE TELEFONO MODO HORIZONTAL */
+@media screen and (max-width: 480px) {
+  .contacto {
+    background-color: white;
+    padding: 0.3rem;
+    border-top: solid 20px green;
+    border-bottom: solid 20px black;
+    border-left: solid 40px red;
+  }
+  .contacto menu li a {
+    font-size: 1rem;
+    padding-top: 0%;
+  }
+  .contacto menu li {
+    display: block;
+  }
+  .contacto-fondo {
+    background-image: url(../img/contacto-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    animation: imagenes 100s infinite;
+  }
+  @keyframes imagenes {
+    20% {
+      background-image: url(../img/contacto-2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+    }
+    40% {
+      background-image: url(../img/contacto-3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+    }
+    60% {
+      background-image: url(../img/contacto-4.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+    }
+    80% {
+      background-image: url(../img/contacto-5.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+    }
+    100% {
+      background-image: url(../img/contacto-6.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+    }
+  }
+  .contacto-h1 {
+    padding-left: 50px;
+    font-size: 1.7rem;
+  }
+  .contacto-h2 {
+    padding-left: 50px;
+    font-size: 1.5rem;
+  }
+  .formulario {
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border: solid 2px black;
+    width: 350px;
+    height: 400px;
+    font-size: 15px;
+    font-family: serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px white;
+    background-color: red;
+  }
+  fieldset {
+    padding: 15px;
+  }
+}
+/* FIN ESTILOS MOBILE TELEFONO ESTILO HORIZONTAL */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+#cosasquehacer-header {
+  background-color: white;
+  padding: 0.3rem;
+  border-top: solid 35px green;
+  border-bottom: solid 35px black;
+  border-left: solid 35px red;
+}
+
+.cosasquehacer-navegacion li {
+  display: inline;
+  margin-right: 3.5rem;
+}
+.cosasquehacer-navegacion li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: impact, sans-serif;
+  color: black;
+}
+
+.cosasquehacer-fondo {
+  background-color: beige;
+}
+
+.cosasquehacer-h1 {
+  padding-left: 80px;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  font-size: 3rem;
+  font-family: serif;
+  text-shadow: 5px 5px 5px white;
+}
+
+.cosasquehacer-flex {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#cosasquehacer-section {
+  border: solid black 1px;
+  width: 95%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  padding: 40px 40px;
+}
+#cosasquehacer-section div {
+  padding-left: 30px;
+  width: 500px;
+  text-align: left;
+}
+#cosasquehacer-section h2 {
+  font-size: 1.7rem;
+  font-family: serif;
+  font-weight: bolder;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#cosasquehacer-section p {
+  font-size: 1.2rem;
+  font-family: serif;
+  font-weight: bolder;
+  width: 450px;
+}
+
+#cosasquehacer-section .recorridodesierto {
+  background-image: url(../img/dunas-1.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  margin-left: 20px;
+  margin-top: 10px;
+  animation: dunas 20s infinite;
+}
+
+@keyframes dunas {
+  20% {
+    background-image: url(../img/dunas-2.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  40% {
+    background-image: url(../img/dunas-3.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  60% {
+    background-image: url(../img/dunas-4.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  80% {
+    background-image: url(../img/dunas-5.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+}
+#cosasquehacer-section .touryate {
+  background-image: url(../img/yate-1.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  margin-left: 25px;
+  margin-top: 10px;
+  animation: touryate 20s infinite;
+}
+
+@keyframes touryate {
+  20% {
+    background-image: url(../img/yate-2.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  40% {
+    background-image: url(../img/yate-3.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  60% {
+    background-image: url(../img/yate-4.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  80% {
+    background-image: url(../img/yate-5.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+}
+#cosasquehacer-section .burjkhalifa {
+  background-image: url(../img/Burj\ Khalifa-1.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  margin-left: 25px;
+  margin-top: 10px;
+  animation: burjkhalifa 20s infinite;
+}
+
+@keyframes burjkhalifa {
+  20% {
+    background-image: url(../img/Burj\ Khalifa-2.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  40% {
+    background-image: url(../img/Burj\ Khalifa-3.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  60% {
+    background-image: url(../img/Burj\ Khalifa-4.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  80% {
+    background-image: url(../img/Burj\ Khalifa-5.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+}
+#cosasquehacer-section .helicoptero {
+  background-image: url(../img/helicoptero-1.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  margin-left: 25px;
+  margin-top: 10px;
+  animation: helicoptero 20s infinite;
+}
+
+@keyframes helicoptero {
+  20% {
+    background-image: url(../img/helicoptero-2.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  40% {
+    background-image: url(../img/helicoptero-3.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  60% {
+    background-image: url(../img/helicoptero-4.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  80% {
+    background-image: url(../img/helicoptero-5.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+}
+#cosasquehacer-section .globo {
+  background-image: url(../img/globo-1.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  margin-left: 25px;
+  margin-top: 10px;
+  animation: globo 20s infinite;
+}
+
+@keyframes globo {
+  20% {
+    background-image: url(../img/globo-2.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  40% {
+    background-image: url(../img/globo-3.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  60% {
+    background-image: url(../img/globo-4.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  80% {
+    background-image: url(../img/globo-5.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+}
+.cosasquehacer-footer {
+  background-color: black;
+}
+.cosasquehacer-footer p {
+  color: aliceblue;
+  font-size: 1rem;
+  font-family: serif;
+  text-align-last: center;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+.hoteleria-header {
+  background-color: white;
+  padding: 0.3rem;
+  border-top: solid 35px green;
+  border-bottom: solid 35px black;
+  border-left: solid 35px red;
+}
+
+.hoteleria-menu li {
+  display: inline;
+  margin-right: 3.5rem;
+}
+.hoteleria-menu li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: impact, sans-serif;
+  color: black;
+}
+
+.hoteleria-fondo .border {
+  background-color: beige;
+}
+
+header {
+  grid-area: header;
+}
+
+footer {
+  grid-area: footer;
+}
+
+section#productos {
+  grid-area: productos;
+}
+
+section#servicios {
+  grid-area: servicios;
+}
+
+nav {
+  grid-area: nav;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+.border h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.border .hoteleria-nav {
+  font-family: serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.hoteleria-h2 {
+  font-family: serif;
+  margin-top: 10px;
+}
+.hoteleria-h2 h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.hoteleria-h2 p {
+  font-family: serif;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+#grilla {
+  display: grid;
+  grid-template-areas: "nav header header" "nav productos publicidad" "nav servicios publicidad" "footer footer footer";
+  grid-template-rows: 100px 1fr 1fr 1rem;
+  grid-template-columns: 20% auto 0%;
+  height: 100vh;
+  margin: 0;
+  border: solid black 1px;
+}
+
+.seccion-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.caja-imagenes {
+  border: solid black 1px;
+  width: 255px;
+  height: 240px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.caja-imagenes p {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#carouselExampleIndicators img {
+  height: 200px;
+  width: 200px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+.hoteleria-button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.hoteleria-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  background-color: black;
+}
+.footer p {
+  color: aliceblue;
+  font-size: 1rem;
+  font-family: serif;
+  text-align-last: center;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+.viaje-menu {
+  background-color: white;
+  padding: 0.3rem;
+  border-top: solid 35px green;
+  border-bottom: solid 35px black;
+  border-left: solid 35px red;
+}
+
+.viaje-menu li {
+  display: inline;
+  margin-right: 3.5rem;
+}
+.viaje-menu li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: impact, sans-serif;
+  color: black;
+}
+
+.viaje-img {
+  background-image: url(../img/flyemirates.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.viaje-h1 {
+  padding-left: 50px;
+  padding-top: 30px;
+  font-size: 3.3rem;
+  font-family: serif;
+  color: red;
+  text-shadow: 2px 2px 2px black;
+}
+
+.viaje-h2 {
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 3rem;
+  font-family: serif;
+  color: gold;
+  text-shadow: 2px 2px 2px black;
+}
+
+.viaje-tabla {
+  margin-left: 40px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  width: 1000px;
+  height: 300px;
+  border: solid black 2px;
+  background-color: red;
+}
+
+.viaje-th {
+  border-radius: 50px;
+  border: solid black 2px;
+  background-color: rgb(37, 135, 226);
+}
+.viaje-th p {
+  font-family: serif;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 1px 1px 1px white;
+}
+
+.viaje-th select {
+  margin-left: 50px;
+}
+
+.viaje-td {
+  border-radius: 50px;
+  border: solid black 2px;
+  background-color: rgb(37, 135, 226);
+}
+.viaje-td p {
+  font-family: serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 1px white;
+}
+
+.viaje-td select {
+  margin-left: 50px;
+  margin-bottom: 2px;
+}
+
+.viaje-button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+.viaje-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.viaje-footer {
+  background-color: black;
+}
+.viaje-footer p {
+  color: aliceblue;
+  font-size: 1rem;
+  font-family: serif;
+  text-align-last: center;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
 header {
   background-color: white;
   padding: 0.3rem;
